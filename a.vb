@@ -6,6 +6,8 @@
 ' Then, we sum up the multiples of 5 that are not multiples of 3. We need
 ' to be careful not to double add numbers like 15 that are both multiples
 ' of 3 and 5.
+'
+' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\a.vb
 
 Option Explicit On ' Ensure typos are caught at compile time.
 Option Infer    On ' SML/NJ 97 like type inference at compile time.
@@ -36,3 +38,4 @@ Module ProjectEuler
     System.Console.WriteLine("Time taken: " & ld & " millis")
   End Sub
 End Module
+
