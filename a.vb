@@ -2,11 +2,6 @@
 ' ~~~~~~~~~~~~~~~~~~~~~~~~~
 '
 ' https://betaprojects.com/solutions/project-euler/project-euler-problem-001-solution/
-'
-' We first sum up the multiples of 3. Then, we sum up the multiples of 5
-' that are not multiples of 3. We need to be careful not to double add 
-' numbers like 15 that are both multiples of 3 and 5.
-'
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\a.vb
 
 Option Explicit On ' Ensure typos are caught at compile time.
