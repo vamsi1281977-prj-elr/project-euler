@@ -1,7 +1,5 @@
 ' Project Euler Problem 002
 ' ~~~~~~~~~~~~~~~~~~~~~~~~~
-'
-' https://betaprojects.com/solutions/project-euler/project-euler-problem-002-solution/
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\b.vb
 
 Option Explicit On
