@@ -1,11 +1,9 @@
 ' Project Euler Problem 001
 ' ~~~~~~~~~~~~~~~~~~~~~~~~~
 '
-' This problem can be solved in many ways, but we will write the simplest
-' possible code to solve this problem. We first sum up the multiples of 3.
-' Then, we sum up the multiples of 5 that are not multiples of 3. We need
-' to be careful not to double add numbers like 15 that are both multiples
-' of 3 and 5.
+' We first sum up the multiples of 3. Then, we sum up the multiples of 5
+' that are not multiples of 3. We need to be careful not to double add 
+' numbers like 15 that are both multiples of 3 and 5.
 '
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\a.vb
 
@@ -38,4 +36,3 @@ Module ProjectEuler
     System.Console.WriteLine("Time taken: " & ld & " millis")
   End Sub
 End Module
-
