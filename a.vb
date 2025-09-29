@@ -4,9 +4,9 @@
 ' https://betaprojects.com/solutions/project-euler/project-euler-problem-001-solution/
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\a.vb
 
-Option Explicit On ' Ensure typos are caught at compile time.
-Option Infer    On ' Local variable type inference at compile time.
-Option Strict   On ' No unsafe type conversions.
+Option Explicit On
+Option Infer    On
+Option Strict   On
 
 Module ProjectEuler
   Function Solve(ByVal va As Integer,
