@@ -1,6 +1,8 @@
 ' Project Euler Problem 002
 ' ~~~~~~~~~~~~~~~~~~~~~~~~~
 '
+' https://betaprojects.com/solutions/project-euler/project-euler-problem-002-solution/
+'
 ' For this problem we will generate fibonacci numbers and sum up the even
 ' fibonacci numbers.
 '
