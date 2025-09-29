@@ -1,6 +1,8 @@
 ' Project Euler Problem 001
 ' ~~~~~~~~~~~~~~~~~~~~~~~~~
 '
+' https://betaprojects.com/solutions/project-euler/project-euler-problem-001-solution/
+'
 ' We first sum up the multiples of 3. Then, we sum up the multiples of 5
 ' that are not multiples of 3. We need to be careful not to double add 
 ' numbers like 15 that are both multiples of 3 and 5.
