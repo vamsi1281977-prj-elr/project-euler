@@ -7,7 +7,7 @@
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\b.vb
 
 Option Explicit On ' Ensure typos are caught at compile time.
-Option Infer    On ' SML/NJ 97 like type inference at compile time.
+Option Infer    On ' Local variable type inference at compile time.
 Option Strict   On ' No unsafe type conversions.
 
 Module ProjectEuler
@@ -35,4 +35,3 @@ Module ProjectEuler
     System.Console.WriteLine("Time taken: " & ld & " millis")
   End Sub
 End Module
-
