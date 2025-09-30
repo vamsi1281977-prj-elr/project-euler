@@ -1,5 +1,3 @@
-' Project Euler Problem 001
-' ~~~~~~~~~~~~~~~~~~~~~~~~~
 ' C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe /langversion:10 .\a.vb
 
 Option Explicit On
