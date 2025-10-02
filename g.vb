@@ -32,7 +32,7 @@ Module ProjectEuler
     End If
   End Function
 
-  Function Solve(ByVal va As Long) As Long
+  Function Solve(ByVal va As Integer) As Integer
     Dim la = 0
     Dim lb = 0
     While la < va
