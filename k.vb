@@ -7,7 +7,7 @@ Option Strict   On
 Module ProjectEuler
   Function MaxProduct000(ByVal va As Integer(,), ByVal vb As Integer) As Integer
     Dim la = 0
-    For ia = 0 to va.GetLength(0) - vb
+    For ia = 0 to va.GetLength(0) - 1
       For ib = 0 To va.GetLength(1) - vb
         Dim lb = 1
         For ic = 0 To vb - 1
@@ -36,7 +36,7 @@ Module ProjectEuler
   Function MaxProduct090(ByVal va As Integer(,), ByVal vb As Integer) As Integer
     Dim la = 0
     For ia = 0 to va.GetLength(0) - vb
-      For ib = 0 To va.GetLength(1) - vb
+      For ib = 0 To va.GetLength(1) - 1
         Dim lb = 1
         For ic = 0 To vb - 1
           lb = lb * va(ia + ic, ib)
